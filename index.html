@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Dapp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Dapp</h1>
+    <form action="javascript:start()">
+        <input placeholder="Enter your system's python executable (usually python, python3, or py)" id="editor" class="exe"><br><br>
+        <textarea id="editor" class="code" rows="3" placeholder="Enter your code here"></textarea>
+        <button type="submit" class="btn btn-primary">Run</button>
+    </form>
+    
+    <script src="renderer.js" defer></script>
+</body>
+
+</html>

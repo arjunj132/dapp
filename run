@@ -1,0 +1,17 @@
+#!/bin/bash
+cat << EndOfMessage
+
+██████   █████  ██████  ██████  
+██   ██ ██   ██ ██   ██ ██   ██ 
+██   ██ ███████ ██████  ██████  
+██   ██ ██   ██ ██      ██      
+██████  ██   ██ ██      ██      
+
+(c) Arjun J
+EndOfMessage
+
+OUTPUT=$(whereis python)
+IFS=' '; arrIN=($OUTPUT); unset IFS;
+APP=${arrIN[1]}
+TXT=$(eval cat $1)
+eval $APP" ~/dapp/app.py '"$TXT"'"
