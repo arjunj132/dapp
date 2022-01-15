@@ -224,6 +224,19 @@ init,
 button: Print "Hello World"=print('Hello World!')
 ```
 
+### `cli`
+The CLI (Command Line Interface) command is a command to start the Dapp CLI.
+
+The CLI must be the first command in your script. You can also start the CLI by running the source script directly:
+
+```bash
+python3 -m app cli
+```
+
+The CLI has 2 sessions. So, exit the CLI, you must use the `exit` command 2 times: to exit the defualt version and to exit the `UNKNOWN` version.
+
+### `exit`
+Raise a `SystemExit` in the current session. 
 
 ---
 &copy; Arjun
