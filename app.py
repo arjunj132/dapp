@@ -1,5 +1,4 @@
 # Dependencies
-from pydoc import cli
 import sys
 from tkinter import *
 
