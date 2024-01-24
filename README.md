@@ -32,6 +32,14 @@ Welcome! This tutorial will cover parts of the Dapp programming language.
 
 
 ### Setup and Introduction
+
+Before we actual get into the tutorial, we will just clone and `cd` into the directory.
+
+```bash
+git clone https://github.com/arjunj132/dapp.git
+cd dapp
+```
+
 Let's start our tutorial! We'll first start our development enviroment:
 
 First we install the dependencies:
