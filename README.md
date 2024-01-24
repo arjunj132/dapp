@@ -6,13 +6,13 @@ Welcome to DAPP, a python based language. You can create your own desktop app wi
 ## Installation
 
 ### How to run
+Enter the commands into a file.
 
-Run this:
+Then run this:
 ```bash
 chmod u+x run
 ./run /path/to/commands.txt
 ```
-And enter the commands
 
 Check the [API](#api) Section for the docs for the commands.
 
