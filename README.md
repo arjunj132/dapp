@@ -4,9 +4,9 @@
 ██   ██ ██   ██ ██      ██      
 ██████  ██   ██ ██      ██      </pre></div>
 
-**The Desktop APP programming language**
+**The Desktop APP tkinter thing**
 
-Welcome to DAPP, a python based language. You can create your own desktop app with dapp.
+Welcome to DAPP, a python-based thing based on tkinter. You can create your own really really simple tkinter app with dapp.
 
 ## Installation
 
