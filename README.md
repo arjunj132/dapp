@@ -1,4 +1,9 @@
-# Dapp
+<div align="center"><pre>██████   █████  ██████  ██████  
+██   ██ ██   ██ ██   ██ ██   ██ 
+██   ██ ███████ ██████  ██████  
+██   ██ ██   ██ ██      ██      
+██████  ██   ██ ██      ██      </pre></div>
+
 **The Desktop APP programming language**
 
 Welcome to DAPP, a python based language. You can create your own desktop app with dapp.
