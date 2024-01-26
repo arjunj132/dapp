@@ -254,5 +254,7 @@ The CLI has 2 sessions. So, exit the CLI, you must use the `exit` command 2 time
 ### `exit`
 Raise a `SystemExit` in the current session. 
 
+If you like this project, please support me by starring this!
+
 ---
 &copy; Arjun
