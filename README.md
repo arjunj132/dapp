@@ -147,7 +147,7 @@ An example of this is:
 
 ```javascript
 // ... ,
-title: A app
+title:A app
 ```
 
 In this example, the `A app` is a the data being sent to the server.
@@ -158,7 +158,7 @@ The equal seperator is used when you need more data when using the colon seperat
 
 ```javascript
 // ... ,
-button: Click me!=print('Hello world!')
+button:Click me!=print('Hello world!')
 ```
 
 Here, we created a button that prints `Hello World`. For more information, check the `button` API.
@@ -182,7 +182,7 @@ For example, in this we initilize a app and add a title to the app:
 
 ```javascript
 init,
-title: A dapp app
+title:A dapp app
 ```
 
 ### `text`
@@ -190,7 +190,7 @@ Add a text widget to your app.
 
 ```javascript
 init,
-text: Some text
+text:Some text
 ```
 
 ### `geometry`
@@ -199,7 +199,7 @@ Change the size of your app.
 
 ```javascript
 init,
-geometry: 1000x1000
+geometry:1000x1000
 ```
 
 ### `img`
@@ -214,7 +214,7 @@ An example of this command:
 
 ```javascript
 init,
-img: src.png=0=0
+img:src.png=0=0
 ```
 
 This places the image `src.png` at the x and y coordinates `0x0`.
@@ -234,7 +234,7 @@ For example, this app creates a button that can be clicked and then it prints 'H
 
 ```javascript
 init,
-button: Print "Hello World"=print('Hello World!')
+button:Print "Hello World"=print('Hello World!')
 ```
 
 ### `cli`
