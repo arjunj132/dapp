@@ -30,6 +30,9 @@ npm start
 
 NOTE: You need node.js, npm, and python and bash
 
+> [!NOTE]
+> Closing the popped-up Tkinter window will log all messages into the Developer Console of the Try-It zone (View --> Toggle Developer Tools)
+
 # Documentation
 ## Tutorial
 
@@ -219,7 +222,7 @@ img:src.png=0=0
 
 This places the image `src.png` at the x and y coordinates `0x0`.
 
-### `button`
+### `button` - Expirimental
 
 **NOTE**: The button attribute is the only attribute that allows you to run python code in your app. Please do not misuse this command because it can be dangerous. Do not run code without knowing what it does.
 
